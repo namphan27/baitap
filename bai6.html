@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <table border="0" cellspacing="0" cellpadding="4">
+            <tr>
+                <th colspan="2"><h2>Novell Services Login</h2></th>
+            </tr>
+            <!-- Phan 1 -->
+            <tr>
+            <td><label for="lbl-fullname">Username</label></td>
+            <td><input type="text" name="lbl-fullname" id="lbl-fullname"></td>
+        </tr>
+        <tr>
+            <td><label for="lbl-password">Password</label></td>
+            <td><input type="text" name="lbl-password" id="lbl-password"></td>
+        </tr>
+        <tr>
+            <td><label for="lbl-com">City of <br>Employment</label></td>
+            <td><input type="text" name="lbl-com" id="lbl-com"></td>
+        </tr>
+        <tr>
+            <td><label for="lbl-server">Web server</label></td>
+            <td><select name="lbl-server" id="lbl-server">
+                <option value="0" selected>-Choose a server-</option>
+                <option value="1">Server 1</option>
+            </select></td>
+        </tr>
+        <!-- Phan 2 -->
+        <tr>
+            <td><label>Please specify <br>you role</label></td>
+            <td>
+                <div>
+                    <label>
+                        <input type="radio" name="psyr" value="Admin"> Admin
+                    </label>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label>
+                        <input type="radio" name="role" value="Engineer"> Engineer
+                    </label>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label>
+                        <input type="radio" name="role" value="Manager"> Manager
+                    </label>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label>
+                        <input type="radio" name="role" value="Guest"> Guest
+                    </label>
+                </div>
+            </td>
+        </tr>
+        <!-- Phan 3 -->
+        <tr>
+            <td><label>Single Sign-on <br>to the following</label></td>
+            <td colspan="">
+                <div>
+                    <label>
+                        <input type="checkbox" name="Single" value="Mail"> Mail
+                    </label>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label>
+                        <input type="checkbox" name="Single" value="Payroll"> Payroll
+                    </label>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label>
+                        <input type="checkbox" name="Single" value="Self-service"> Self-service
+                    </label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit">Login</button>
+               <button type="reset">Reset</button>
+            </td>
+        </tr>
+        </table>
+    </form>
+</body>
+</html>

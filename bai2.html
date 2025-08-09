@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form đặt hàng sản phẩm</h1>
+    <form>
+        <fieldset>
+        <legend>Thông tin đơn hàng</legend>
+        <div>
+            <label for="iphone">Tên sản phẩm:</label>
+            <select name="iphone" id="iphone">
+                <option value="0" selected>iPhone 15</option>
+                <option value="1">iPhone 15 Plus</option>
+                <option value="2">iPhone 15 Pro</option>
+                <option value="3">iPhone 15 Promax</option>
+            </select>
+        </div>
+        <div>
+            <label for="number">Số lượng:</label>
+            <input type="text" name="number" id="number">
+        </div>
+        <div>
+            <label for="lbl-avatar">Upload ảnh thanh toán:</label>
+            <input type="file" name="lbl-avatar" id="lbl-avatar">
+        </div>
+    </fieldset>
+    <button>Đặt hàng</button>
+    </form>
+</body>
+</html>

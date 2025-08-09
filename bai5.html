@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form liên hệ nhiều bước</h1>
+    <form>
+        <fieldset>
+            <legend>Thông tin cá nhân</legend>
+            <div>
+            <label for="lbl-fullname">Họ tên:</label>
+            <input type="text" name="fullname" id="lbl-fullname">
+        </div>
+        <div>
+            <label for="lbl-email">Email:</label>
+            <input type="email" name="fullname" id="lbl-email">
+        </div>
+        <div>
+            <label for="lbl-contact">Số điện thoại:</label>
+            <input type="text name" name="lbl-contact" id="lbl-contact">
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin yêu cầu</legend>
+            <div>
+                <label for="lbl-request">Loại yêu cầu</label>
+                <select name="lbl-request" id="lbl-request">
+                    <option value="0" selected> Hỗ trợ kỹ thuật</option>
+                    <option value="1"> Hỗ trợ....</option>
+                </select>
+            </div>
+            <div>
+                <label for="message" style="display: block;">Mô tả:</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Thông tin bổ sung</legend>
+            <div>
+                <input type="checkbox">
+                <label>Nhận email khuyến mãi</label>
+            </div>
+            <div>
+                <label for="contact">Cách liên hệ:</label>
+                <label for="lbl-email">
+                    <input type="radio" name="lbl-email" id="lbl-email"> Email
+                </label>
+                <label for="lbl-contact">
+                    <input type="radio" name="lbl-contact" id="lbl-contact"> Điện thoại
+                </label>
+            </div>
+        </fieldset>
+        <button>Gửi thông tin</button>
+    </form>
+</body>
+</html>
